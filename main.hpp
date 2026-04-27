@@ -9,6 +9,10 @@ void swapValues(int &n1, int &n2)
 {
     // TODO
     swap(n1, n2);
+    int tmp;
+    tmp = n1;
+    n1 = n2;
+    n2 = tmp;
     // END TODO
 }
 
